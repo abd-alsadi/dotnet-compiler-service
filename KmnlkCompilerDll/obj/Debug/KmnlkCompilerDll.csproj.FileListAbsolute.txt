@@ -1,0 +1,6 @@
+S:\LocalPro\KmnlkCompiler\KmnlkCompilerDll\bin\Debug\KmnlkCompilerDll.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompilerDll\bin\Debug\KmnlkCompilerDll.pdb
+S:\LocalPro\KmnlkCompiler\KmnlkCompilerDll\bin\Debug\KmnlkCommon.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompilerDll\bin\Debug\Newtonsoft.Json.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompilerDll\obj\Debug\KmnlkCompilerDll.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompilerDll\obj\Debug\KmnlkCompilerDll.pdb

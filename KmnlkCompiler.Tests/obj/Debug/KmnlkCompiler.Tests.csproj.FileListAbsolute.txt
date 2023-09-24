@@ -1,0 +1,12 @@
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\bin\Debug\KmnlkCompiler.Tests.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\bin\Debug\KmnlkCompiler.Tests.pdb
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\obj\Debug\KmnlkCompiler.Tests.csprojResolveAssemblyReference.cache
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\obj\Debug\KmnlkCompiler.Tests.dll
+S:\LocalPro\KmnlkCompiler\KmnlkCompiler.Tests\obj\Debug\KmnlkCompiler.Tests.pdb

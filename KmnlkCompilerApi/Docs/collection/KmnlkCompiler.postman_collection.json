@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "60187b5f-4677-42fa-8ea2-b90d4dd315c9",
+		"name": "KmnlkCompiler",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CheckFileCode",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"codes\":[\"\n    using System;\n    using System.Collections.Generic;\n    using System.Text;\n    using System.Threading.Tasks;\n\n    namespace Main\n    {\n        public class Program\n        {\n            public static string Main()\n            {\n            \t\n                var s = \\\"Hello, world!\\\"; var x=10;\n                s+=\\\"Hello, world!\\\";\n                 s+=Program2.Main2();\n                 return s;\n            }\n        }\n    }\n\",\"  using System;\n    using System.Collections.Generic;\n    using System.Text;\n    using System.Threading.Tasks;\n\n    namespace Main\n    {\n        public class Program2\n        {\n            public static string Main2()\n            {\n                return\\\"Hello, world!\\\"; var x=10;\n                Console.WriteLine(\\\"Hello, world!\\\");\n                \n            }\n        }\n    }\n\"],\n\t\"type\":0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:62242/api/v1/Compiler/CheckFileCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62242",
+					"path": [
+						"api",
+						"v1",
+						"Compiler",
+						"CheckFileCode"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetResultFileCode",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"codes\":[\"\n    using System;\n    using System.Collections.Generic;\n    using System.Text;\n    using System.Threading.Tasks;\n\n    namespace Main\n    {\n        public class Program\n        {\n            public static string Main()\n            {\n            \t\n                var s = \\\"Hello, world!\\\"; var x=10;\n                s+=\\\"Hello, world!\\\";\n                 s+=Program2.Main2();\n                 return s;\n            }\n        }\n    }\n\",\"  using System;\n    using System.Collections.Generic;\n    using System.Text;\n    using System.Threading.Tasks;\n\n    namespace Main\n    {\n        public class Program2\n        {\n            public static string Main2()\n            {\n                return\\\"Hello, world!\\\"; var x=10;\n                Console.WriteLine(\\\"Hello, world!\\\");\n                \n            }\n        }\n    }\n\"],\n\t\"type\":0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:62242/api/v1/Compiler/GetResultFileCode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62242",
+					"path": [
+						"api",
+						"v1",
+						"Compiler",
+						"GetResultFileCode"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GenerateDll",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"codes\":[\"\n    using System;\n    using System.Collections.Generic;\n    using System.Text;\n    using System.Threading.Tasks;\n\n    namespace Main\n    {\n        public class Program\n        {\n            public static string Main()\n            {\n            \t\n                var s = \\\"Hello, world!\\\"; var x=10;\n                s+=\\\"Hello, world!\\\";\n                 s+=Program2.Main2();\n                 return s;\n            }\n        }\n    }\n\",\"  using System;\n    using System.Collections.Generic;\n    using System.Text;\n    using System.Threading.Tasks;\n\n    namespace Main\n    {\n        public class Program2\n        {\n            public static string Main2()\n            {\n                return\\\"Hello, world!\\\"; var x=10;\n                Console.WriteLine(\\\"Hello, world!\\\");\n                \n            }\n        }\n    }\n\"],\n\t\"type\":0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:62242/api/v1/Compiler/GenerateDll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62242",
+					"path": [
+						"api",
+						"v1",
+						"Compiler",
+						"GenerateDll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GenerateExe",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"codes\":[\"\n    using System;\n    using System.Collections.Generic;\n    using System.Text;\n    using System.Threading.Tasks;\n\n    namespace Main\n    {\n        public class Program\n        {\n            public static void Main()\n            {\n            \t\n                var s = \\\"Hello, world!\\\"; var x=10;\n                s+=\\\"Hello, world!\\\";\n                 s+=Program2.Main2();\n                 Console.WriteLine(s);\n                 Console.ReadLine();\n            }\n        }\n    }\n\",\"  using System;\n    using System.Collections.Generic;\n    using System.Text;\n    using System.Threading.Tasks;\n\n    namespace Main\n    {\n        public class Program2\n        {\n            public static string Main2()\n            {\n                return\\\"Hello, world!\\\"; var x=10;\n                Console.WriteLine(\\\"Hello, world!\\\");\n                \n            }\n        }\n    }\n\"],\n\t\"type\":0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:62242/api/v1/Compiler/GenerateExe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62242",
+					"path": [
+						"api",
+						"v1",
+						"Compiler",
+						"GenerateExe"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

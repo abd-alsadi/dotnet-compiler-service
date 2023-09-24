@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkCompilerApi", "KmnlkCompilerApi\KmnlkCompilerApi.csproj", "{3DB2579F-D5EF-4AD2-97FD-FE66B3347181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkCompiler.Tests", "KmnlkCompiler.Tests\KmnlkCompiler.Tests.csproj", "{8AE74EAC-5432-4BF8-9BB4-957559D60B52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmnlkCompilerDll", "KmnlkCompilerDll\KmnlkCompilerDll.csproj", "{07A6DC08-229C-4348-93DC-2534FBF71C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTest", "MyTest\MyTest.csproj", "{B3D3FEF1-6FBB-4A7F-9562-35A267241605}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "KmnlkCompilerApiSetup", "KmnlkCompilerApiSetup\KmnlkCompilerApiSetup.aiproj", "{8AB083CA-CA91-4A16-92CB-6011A6432185}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{310A2F64-C1F6-4441-9273-1361EDFF0611}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\KmnlkCommon.dll = Dlls\KmnlkCommon.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DB2579F-D5EF-4AD2-97FD-FE66B3347181}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB2579F-D5EF-4AD2-97FD-FE66B3347181}.All|Any CPU.Build.0 = Release|Any CPU
+		{3DB2579F-D5EF-4AD2-97FD-FE66B3347181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB2579F-D5EF-4AD2-97FD-FE66B3347181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB2579F-D5EF-4AD2-97FD-FE66B3347181}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3DB2579F-D5EF-4AD2-97FD-FE66B3347181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB2579F-D5EF-4AD2-97FD-FE66B3347181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE74EAC-5432-4BF8-9BB4-957559D60B52}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE74EAC-5432-4BF8-9BB4-957559D60B52}.All|Any CPU.Build.0 = Release|Any CPU
+		{8AE74EAC-5432-4BF8-9BB4-957559D60B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE74EAC-5432-4BF8-9BB4-957559D60B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE74EAC-5432-4BF8-9BB4-957559D60B52}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8AE74EAC-5432-4BF8-9BB4-957559D60B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE74EAC-5432-4BF8-9BB4-957559D60B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A6DC08-229C-4348-93DC-2534FBF71C26}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{07A6DC08-229C-4348-93DC-2534FBF71C26}.All|Any CPU.Build.0 = Release|Any CPU
+		{07A6DC08-229C-4348-93DC-2534FBF71C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A6DC08-229C-4348-93DC-2534FBF71C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A6DC08-229C-4348-93DC-2534FBF71C26}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{07A6DC08-229C-4348-93DC-2534FBF71C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A6DC08-229C-4348-93DC-2534FBF71C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D3FEF1-6FBB-4A7F-9562-35A267241605}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D3FEF1-6FBB-4A7F-9562-35A267241605}.All|Any CPU.Build.0 = Release|Any CPU
+		{B3D3FEF1-6FBB-4A7F-9562-35A267241605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D3FEF1-6FBB-4A7F-9562-35A267241605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D3FEF1-6FBB-4A7F-9562-35A267241605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D3FEF1-6FBB-4A7F-9562-35A267241605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB083CA-CA91-4A16-92CB-6011A6432185}.All|Any CPU.ActiveCfg = DefaultBuild
+		{8AB083CA-CA91-4A16-92CB-6011A6432185}.All|Any CPU.Build.0 = DefaultBuild
+		{8AB083CA-CA91-4A16-92CB-6011A6432185}.Debug|Any CPU.ActiveCfg = DefaultBuild
+		{8AB083CA-CA91-4A16-92CB-6011A6432185}.Debug|Any CPU.Build.0 = DefaultBuild
+		{8AB083CA-CA91-4A16-92CB-6011A6432185}.Release|Any CPU.ActiveCfg = DefaultBuild
+		{8AB083CA-CA91-4A16-92CB-6011A6432185}.Release|Any CPU.Build.0 = DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

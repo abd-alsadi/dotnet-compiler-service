@@ -1,0 +1,10 @@
+S:\LocalPro\KmnlkCompiler\MyTest\bin\Debug\MyTest.exe.config
+S:\LocalPro\KmnlkCompiler\MyTest\bin\Debug\MyTest.exe
+S:\LocalPro\KmnlkCompiler\MyTest\bin\Debug\MyTest.pdb
+S:\LocalPro\KmnlkCompiler\MyTest\bin\Debug\KmnlkCommon.dll
+S:\LocalPro\KmnlkCompiler\MyTest\bin\Debug\KmnlkCompilerDll.dll
+S:\LocalPro\KmnlkCompiler\MyTest\bin\Debug\Newtonsoft.Json.dll
+S:\LocalPro\KmnlkCompiler\MyTest\bin\Debug\KmnlkCompilerDll.pdb
+S:\LocalPro\KmnlkCompiler\MyTest\obj\Debug\MyTest.csprojResolveAssemblyReference.cache
+S:\LocalPro\KmnlkCompiler\MyTest\obj\Debug\MyTest.exe
+S:\LocalPro\KmnlkCompiler\MyTest\obj\Debug\MyTest.pdb

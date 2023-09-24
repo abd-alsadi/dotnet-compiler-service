@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<VersionNumber>2019.01</VersionNumber>
+<PublicKey></PublicKey>
+<EnableLog>true</EnableLog>
+<TypeLog>file</TypeLog>
+<VersionCsharp>v4</VersionCsharp>
+<VersionVB>v3.5</VersionVB>
+ <TempPath>E:\my projects\KmnlkCompiler\KmnlkCompilerApi\DataFolder\tempFiles\</TempPath>
+<PathLog>E:\my projects\KmnlkCompiler\KmnlkCompilerApi\Output\Log\Local\</PathLog>
+<GlobalPathLog>E:\my projects\KmnlkCompiler\KmnlkCompilerApi\Output\Log\Global\</GlobalPathLog>
+<DataFolder>E:\my projects\KmnlkCompiler\KmnlkCompilerApi\DataFolder\</DataFolder>
+<UploadFilesMaximumFileSize>0</UploadFilesMaximumFileSize>
+<OCRServiceUrl></OCRServiceUrl>
+</Settings>
